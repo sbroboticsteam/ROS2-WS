@@ -1,0 +1,9 @@
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/src/build/tetra_description/CMakeFiles/uninstall.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/src/build/tetra_description/CMakeFiles/tetra_description_uninstall.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/src/build/tetra_description/CMakeFiles/test.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/src/build/tetra_description/CMakeFiles/edit_cache.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/src/build/tetra_description/CMakeFiles/rebuild_cache.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/src/build/tetra_description/CMakeFiles/list_install_components.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/src/build/tetra_description/CMakeFiles/install.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/src/build/tetra_description/CMakeFiles/install/local.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/src/build/tetra_description/CMakeFiles/install/strip.dir
