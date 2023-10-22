@@ -1,12 +1,11 @@
 <?xml version="1.0" ?>
-<robot name="tetra" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot name="tetra_description" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-<xacro:include filename="$(find tetra_description)/urdf/materials.xacro" />
-<xacro:include filename="$(find tetra_description)/urdf/simple_dexter_driveTrain.trans" />
-<xacro:include filename="$(find tetra_description)/urdf/simple_dexter_driveTrain.gazebo" />
-<link name="world">
+<xacro:include filename="materials.xacro" />
+<xacro:include filename="simple_dexter_driveTrain.trans"/>
+<xacro:include filename="simple_dexter_driveTrain.gazebo"/>
+<link name="dummy">
    </link>
-
 <link name="base_link">
   <inertial>
     <origin xyz="0.039437777040388936 0.23964405891011964 0.22875126505129662" rpy="0 0 0"/>
@@ -16,18 +15,17 @@
   <visual>
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/base_link.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/base_link.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/base_link.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/base_link.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
- 
 
 <link name="drive_housing_v2_1">
   <inertial>
@@ -38,14 +36,14 @@
   <visual>
     <origin xyz="-0.153738 -0.239644 -0.303299" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/drive_housing_v2_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/drive_housing_v2_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.153738 -0.239644 -0.303299" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/drive_housing_v2_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/drive_housing_v2_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -59,14 +57,14 @@
   <visual>
     <origin xyz="0.074862 -0.239644 -0.303299" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/drive_housing_v2__1__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/drive_housing_v2__1__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.074862 -0.239644 -0.303299" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/drive_housing_v2__1__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/drive_housing_v2__1__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -80,14 +78,14 @@
   <visual>
     <origin xyz="0.239962 -0.493644 -0.175385" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/backFlipper_v2__2__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/backFlipper_v2__2__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.239962 -0.493644 -0.175385" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/backFlipper_v2__2__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/backFlipper_v2__2__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -101,14 +99,14 @@
   <visual>
     <origin xyz="-0.318838 -0.493644 -0.175385" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/backFlipper_v2__3__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/backFlipper_v2__3__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.318838 -0.493644 -0.175385" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/backFlipper_v2__3__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/backFlipper_v2__3__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -122,14 +120,14 @@
   <visual>
     <origin xyz="-0.039438 -0.239644 -0.303299" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ebox_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ebox_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.039438 -0.239644 -0.303299" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ebox_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ebox_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -143,14 +141,14 @@
   <visual>
     <origin xyz="-0.279082 -0.279082 -0.0" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_basePlatform_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_basePlatform_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.279082 -0.279082 -0.0" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_basePlatform_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_basePlatform_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -164,14 +162,14 @@
   <visual>
     <origin xyz="-0.079182 0.103122 -0.594262" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_1401-0043-0032_assembly_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_1401-0043-0032_assembly_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.079182 0.103122 -0.594262" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_1401-0043-0032_assembly_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_1401-0043-0032_assembly_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -185,14 +183,14 @@
   <visual>
     <origin xyz="-0.318838 0.014356 -0.175385" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/backFlipper_v2__1__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/backFlipper_v2__1__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.318838 0.014356 -0.175385" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/backFlipper_v2__1__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/backFlipper_v2__1__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -206,14 +204,14 @@
   <visual>
     <origin xyz="0.239962 0.014356 -0.175385" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/backFlipper_v2_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/backFlipper_v2_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.239962 0.014356 -0.175385" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/backFlipper_v2_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/backFlipper_v2_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -227,14 +225,14 @@
   <visual>
     <origin xyz="-0.290898 0.014356 -0.175385" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/sprocket_v1__2__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/sprocket_v1__2__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.290898 0.014356 -0.175385" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/sprocket_v1__2__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/sprocket_v1__2__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -248,14 +246,14 @@
   <visual>
     <origin xyz="-0.290898 -0.493644 -0.175385" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/sprocket_v1__1__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/sprocket_v1__1__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.290898 -0.493644 -0.175385" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/sprocket_v1__1__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/sprocket_v1__1__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -269,14 +267,14 @@
   <visual>
     <origin xyz="0.212022 -0.493644 -0.175385" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/sprocket_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/sprocket_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.212022 -0.493644 -0.175385" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/sprocket_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/sprocket_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -290,14 +288,14 @@
   <visual>
     <origin xyz="0.212022 0.014356 -0.175385" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/sprocket_v1__3__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/sprocket_v1__3__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.212022 0.014356 -0.175385" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/sprocket_v1__3__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/sprocket_v1__3__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -311,14 +309,14 @@
   <visual>
     <origin xyz="0.000818 -0.031548 -0.543579" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_1516-4008-0800_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_1516-4008-0800_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.000818 -0.031548 -0.543579" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_1516-4008-0800_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_1516-4008-0800_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -332,14 +330,14 @@
   <visual>
     <origin xyz="-0.079182 -0.031548 -0.543579" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_LowerArmPlate_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_LowerArmPlate_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.079182 -0.031548 -0.543579" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_LowerArmPlate_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_LowerArmPlate_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -353,14 +351,14 @@
   <visual>
     <origin xyz="-0.021726 0.120253 -0.868651" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_LowerArmPlate_v1__1__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_LowerArmPlate_v1__1__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.021726 0.120253 -0.868651" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_LowerArmPlate_v1__1__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_LowerArmPlate_v1__1__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -374,14 +372,14 @@
   <visual>
     <origin xyz="-0.090238 -0.290444 -0.379499" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_baseOuter_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_baseOuter_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.090238 -0.290444 -0.379499" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_baseOuter_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_baseOuter_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -395,14 +393,14 @@
   <visual>
     <origin xyz="0.017712 -0.277744 -0.481099" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_baseAxle_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_baseAxle_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.017712 -0.277744 -0.481099" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_baseAxle_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_baseAxle_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -416,14 +414,14 @@
   <visual>
     <origin xyz="0.000818 0.110994 -0.563246" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_1401-0043-0032_assembly_v1__1__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_1401-0043-0032_assembly_v1__1__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.000818 0.110994 -0.563246" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_1401-0043-0032_assembly_v1__1__1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_1401-0043-0032_assembly_v1__1__1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -437,14 +435,14 @@
   <visual>
     <origin xyz="0.000693 0.091549 -0.574818" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_upperArmHinge_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_upperArmHinge_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.000693 0.091549 -0.574818" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_upperArmHinge_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_upperArmHinge_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
 </link>
@@ -458,23 +456,22 @@
   <visual>
     <origin xyz="0.011362 -0.290444 -0.379499" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_baseOuter1_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_baseOuter1_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.011362 -0.290444 -0.379499" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://tetra_description/meshes/ARMFINAL_baseOuter1_v1_1.stl" scale="0.5 0.5 0.5"/>
+      <mesh filename="package://tetra_description/meshes/ARMFINAL_baseOuter1_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
-  </collision> 
+  </collision>
 </link>
 
-  <joint name="dummy_joint" type="fixed">
-     <parent link="world"/>
-     <child link="base_link"/>
-   </joint>
-
+<joint name="dummy_joint" type="fixed">
+  <parent link="dummy"/>
+  <child link="base_link"/>
+</joint>
 
 <joint name="Rigid 1" type="fixed">
   <origin xyz="0.153738 0.239644 0.303299" rpy="0 0 0"/>
@@ -488,12 +485,11 @@
   <child link="drive_housing_v2__1__1"/>
 </joint>
 
-<joint name="Revolute 6" type="revolute">
+<joint name="Revolute 6" type="continuous">
   <origin xyz="-0.1651 0.254 -0.127914" rpy="0 0 0"/>
   <parent link="drive_housing_v2__1__1"/>
   <child link="backFlipper_v2__2__1"/>
-  <axis xyz="-0.1651 0 -0.127914"/>
-  <limit effort="1000.0" lower="0.0" upper="0.548" velocity="0.5"/>
+  <axis xyz="1.0 0.0 0.0"/>
 </joint>
 
 <joint name="Revolute 7" type="continuous">
@@ -525,7 +521,7 @@
   <origin xyz="0.1651 -0.254 -0.127914" rpy="0 0 0"/>
   <parent link="drive_housing_v2_1"/>
   <child link="backFlipper_v2__1__1"/>
-  <axis xyz="1.0 0.0 0.0"/>
+  <axis xyz="1.0 -0.0 0.0"/>
 </joint>
 
 <joint name="Revolute 38" type="continuous">

@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<robot name="tetra_description" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+    <joint name="lidar" type="fixed">
+        <origin xyz="1.13716 -0.254 -0.127914" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="drive_housing_v2_1"/>
+    </joint>
+
+</robot>
