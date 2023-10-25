@@ -1,0 +1,6 @@
+Invoking command in '/home/sbrt/ROS-SLAM-testing/test_bot/build/test_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sbrt/ROS-SLAM-testing/test_bot -DCMAKE_INSTALL_PREFIX=/home/sbrt/ROS-SLAM-testing/test_bot/install/test_bot
+Invoked command in '/home/sbrt/ROS-SLAM-testing/test_bot/build/test_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sbrt/ROS-SLAM-testing/test_bot -DCMAKE_INSTALL_PREFIX=/home/sbrt/ROS-SLAM-testing/test_bot/install/test_bot
+Invoking command in '/home/sbrt/ROS-SLAM-testing/test_bot/build/test_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sbrt/ROS-SLAM-testing/test_bot/build/test_bot -- -j16 -l16
+Invoked command in '/home/sbrt/ROS-SLAM-testing/test_bot/build/test_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sbrt/ROS-SLAM-testing/test_bot/build/test_bot -- -j16 -l16
+Invoking command in '/home/sbrt/ROS-SLAM-testing/test_bot/build/test_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sbrt/ROS-SLAM-testing/test_bot/build/test_bot
+Invoked command in '/home/sbrt/ROS-SLAM-testing/test_bot/build/test_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sbrt/ROS-SLAM-testing/test_bot/build/test_bot

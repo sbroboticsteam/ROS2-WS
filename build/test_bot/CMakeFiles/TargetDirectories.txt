@@ -1,0 +1,9 @@
+/home/sbrt/ROS-SLAM-testing/build/test_bot/CMakeFiles/uninstall.dir
+/home/sbrt/ROS-SLAM-testing/build/test_bot/CMakeFiles/test_bot_uninstall.dir
+/home/sbrt/ROS-SLAM-testing/build/test_bot/CMakeFiles/test.dir
+/home/sbrt/ROS-SLAM-testing/build/test_bot/CMakeFiles/edit_cache.dir
+/home/sbrt/ROS-SLAM-testing/build/test_bot/CMakeFiles/rebuild_cache.dir
+/home/sbrt/ROS-SLAM-testing/build/test_bot/CMakeFiles/list_install_components.dir
+/home/sbrt/ROS-SLAM-testing/build/test_bot/CMakeFiles/install.dir
+/home/sbrt/ROS-SLAM-testing/build/test_bot/CMakeFiles/install/local.dir
+/home/sbrt/ROS-SLAM-testing/build/test_bot/CMakeFiles/install/strip.dir
