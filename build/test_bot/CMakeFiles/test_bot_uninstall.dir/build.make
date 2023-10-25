@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sbrt/ROS-SLAM-testing/test_bot
+CMAKE_SOURCE_DIR = /home/sbrt/ROS2-WS/test_bot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sbrt/ROS-SLAM-testing/build/test_bot
+CMAKE_BINARY_DIR = /home/sbrt/ROS2-WS/build/test_bot
 
 # Utility rule file for test_bot_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/test_bot_uninstall.dir/compiler_depend.make
 include CMakeFiles/test_bot_uninstall.dir/progress.make
 
 CMakeFiles/test_bot_uninstall:
-	/usr/bin/cmake -P /home/sbrt/ROS-SLAM-testing/build/test_bot/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/sbrt/ROS2-WS/build/test_bot/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 test_bot_uninstall: CMakeFiles/test_bot_uninstall
 test_bot_uninstall: CMakeFiles/test_bot_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/test_bot_uninstall.dir/clean:
 .PHONY : CMakeFiles/test_bot_uninstall.dir/clean
 
 CMakeFiles/test_bot_uninstall.dir/depend:
-	cd /home/sbrt/ROS-SLAM-testing/build/test_bot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sbrt/ROS-SLAM-testing/test_bot /home/sbrt/ROS-SLAM-testing/test_bot /home/sbrt/ROS-SLAM-testing/build/test_bot /home/sbrt/ROS-SLAM-testing/build/test_bot /home/sbrt/ROS-SLAM-testing/build/test_bot/CMakeFiles/test_bot_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sbrt/ROS2-WS/build/test_bot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sbrt/ROS2-WS/test_bot /home/sbrt/ROS2-WS/test_bot /home/sbrt/ROS2-WS/build/test_bot /home/sbrt/ROS2-WS/build/test_bot /home/sbrt/ROS2-WS/build/test_bot/CMakeFiles/test_bot_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test_bot_uninstall.dir/depend
 

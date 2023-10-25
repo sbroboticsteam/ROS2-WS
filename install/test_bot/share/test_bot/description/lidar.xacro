@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-    <joint name = "laser_joint" type = "continous">
+    <joint name = "laser_joint" type = "fixed">
         <parent link = "chassis"/>
         <child link = "laser_frame"/>
-        <origin xyz= "0.1 0 0.14" rpy "0 0 0"/> <!-- check this since the lidar spins-->
+        <origin xyz= "0.3 0 0.14" rpy="0 0 0"/> <!-- check this since the lidar spins-->
     </joint>
 
     <link name = "laser_frame">

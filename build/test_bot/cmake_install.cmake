@@ -1,8 +1,8 @@
-# Install script for directory: /home/sbrt/ROS-SLAM-testing/test_bot
+# Install script for directory: /home/sbrt/ROS2-WS/test_bot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sbrt/ROS-SLAM-testing/install/test_bot")
+  set(CMAKE_INSTALL_PREFIX "/home/sbrt/ROS2-WS/install/test_bot")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,19 +44,19 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot" TYPE DIRECTORY FILES
-    "/home/sbrt/ROS-SLAM-testing/test_bot/config"
-    "/home/sbrt/ROS-SLAM-testing/test_bot/description"
-    "/home/sbrt/ROS-SLAM-testing/test_bot/launch"
-    "/home/sbrt/ROS-SLAM-testing/test_bot/worlds"
+    "/home/sbrt/ROS2-WS/test_bot/config"
+    "/home/sbrt/ROS2-WS/test_bot/description"
+    "/home/sbrt/ROS2-WS/test_bot/launch"
+    "/home/sbrt/ROS2-WS/test_bot/worlds"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/sbrt/ROS-SLAM-testing/build/test_bot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/test_bot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/sbrt/ROS2-WS/build/test_bot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/test_bot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/sbrt/ROS-SLAM-testing/build/test_bot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/test_bot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/sbrt/ROS2-WS/build/test_bot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/test_bot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -64,7 +64,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot/environment" TYPE FILE FILES "/home/sbrt/ROS-SLAM-testing/build/test_bot/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot/environment" TYPE FILE FILES "/home/sbrt/ROS2-WS/build/test_bot/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -72,42 +72,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot/environment" TYPE FILE FILES "/home/sbrt/ROS-SLAM-testing/build/test_bot/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot/environment" TYPE FILE FILES "/home/sbrt/ROS2-WS/build/test_bot/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot" TYPE FILE FILES "/home/sbrt/ROS-SLAM-testing/build/test_bot/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot" TYPE FILE FILES "/home/sbrt/ROS2-WS/build/test_bot/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot" TYPE FILE FILES "/home/sbrt/ROS-SLAM-testing/build/test_bot/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot" TYPE FILE FILES "/home/sbrt/ROS2-WS/build/test_bot/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot" TYPE FILE FILES "/home/sbrt/ROS-SLAM-testing/build/test_bot/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot" TYPE FILE FILES "/home/sbrt/ROS2-WS/build/test_bot/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot" TYPE FILE FILES "/home/sbrt/ROS-SLAM-testing/build/test_bot/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot" TYPE FILE FILES "/home/sbrt/ROS2-WS/build/test_bot/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot" TYPE FILE FILES "/home/sbrt/ROS-SLAM-testing/build/test_bot/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot" TYPE FILE FILES "/home/sbrt/ROS2-WS/build/test_bot/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/sbrt/ROS-SLAM-testing/build/test_bot/ament_cmake_index/share/ament_index/resource_index/packages/test_bot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/sbrt/ROS2-WS/build/test_bot/ament_cmake_index/share/ament_index/resource_index/packages/test_bot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot/cmake" TYPE FILE FILES
-    "/home/sbrt/ROS-SLAM-testing/build/test_bot/ament_cmake_core/test_botConfig.cmake"
-    "/home/sbrt/ROS-SLAM-testing/build/test_bot/ament_cmake_core/test_botConfig-version.cmake"
+    "/home/sbrt/ROS2-WS/build/test_bot/ament_cmake_core/test_botConfig.cmake"
+    "/home/sbrt/ROS2-WS/build/test_bot/ament_cmake_core/test_botConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot" TYPE FILE FILES "/home/sbrt/ROS-SLAM-testing/test_bot/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_bot" TYPE FILE FILES "/home/sbrt/ROS2-WS/test_bot/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -118,5 +118,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sbrt/ROS-SLAM-testing/build/test_bot/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sbrt/ROS2-WS/build/test_bot/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
