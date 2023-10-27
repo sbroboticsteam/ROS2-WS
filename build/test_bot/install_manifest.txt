@@ -3,7 +3,9 @@
 /home/sbrt/ROS2-WS/install/test_bot/share/test_bot/description/robot.urdf.xacro
 /home/sbrt/ROS2-WS/install/test_bot/share/test_bot/description/robot_core.xacro
 /home/sbrt/ROS2-WS/install/test_bot/share/test_bot/description/lidar.xacro
+/home/sbrt/ROS2-WS/install/test_bot/share/test_bot/description/gazebo_control.xacro
 /home/sbrt/ROS2-WS/install/test_bot/share/test_bot/description/inertial_macros.xacro
+/home/sbrt/ROS2-WS/install/test_bot/share/test_bot/launch/launch_sim.launch.py
 /home/sbrt/ROS2-WS/install/test_bot/share/test_bot/launch/rsp.launch.py
 /home/sbrt/ROS2-WS/install/test_bot/share/test_bot/worlds/empty.world
 /home/sbrt/ROS2-WS/install/test_bot/share/ament_index/resource_index/package_run_dependencies/test_bot

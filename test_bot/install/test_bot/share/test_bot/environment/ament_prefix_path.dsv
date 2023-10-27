@@ -1,1 +1,1 @@
-prepend-non-duplicate;AMENT_PREFIX_PATH;
+/home/sbrt/ROS2-WS/test_bot/build/test_bot/ament_cmake_environment_hooks/ament_prefix_path.dsv
