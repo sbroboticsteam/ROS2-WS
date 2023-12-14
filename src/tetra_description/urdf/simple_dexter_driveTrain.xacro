@@ -1,9 +1,10 @@
 <?xml version="1.0" ?>
 <robot name="tetra_description" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-<xacro:include filename="materials.xacro" />
-<xacro:include filename="simple_dexter_driveTrain.trans"/>
-<xacro:include filename="simple_dexter_driveTrain.gazebo"/>
+<xacro:include filename="$(find tetra_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find tetra_description)/urdf/simple_dexter_driveTrain_trans.xacro" />
+<xacro:include filename="$(find tetra_description)/urdf/simple_dexter_driveTrain_gazebo.xacro" />
+<xacro:include filename="$(find tetra_description)/urdf/ros2_control.xacro" />
 <link name="dummy">
    </link>
 <link name="base_link">
@@ -132,7 +133,7 @@
   </collision>
 </link>
 
-<link name="ARMFINAL_basePlatform_v1_1">
+<!-- <link name="ARMFINAL_basePlatform_v1_1">
   <inertial>
     <origin xyz="-0.23964422295926296 0.014689728704840976 0.38584923253097136" rpy="0 0 0"/>
     <mass value="0.4476020520189321"/>
@@ -151,9 +152,9 @@
       <mesh filename="package://tetra_description/meshes/ARMFINAL_basePlatform_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
-</link>
+</link> -->
 
-<link name="ARMFINAL_1401-0043-0032_assembly_v1_1">
+<!-- <link name="ARMFINAL_1401-0043-0032_assembly_v1_1">
   <inertial>
     <origin xyz="-0.004003753599295445 0.015127636529201544 -0.02015314425617687" rpy="0 0 0"/>
     <mass value="0.01635104032398498"/>
@@ -172,7 +173,7 @@
       <mesh filename="package://tetra_description/meshes/ARMFINAL_1401-0043-0032_assembly_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
-</link>
+</link> -->
 
 <link name="backFlipper_v2__1__1">
   <inertial>
@@ -300,7 +301,7 @@
   </collision>
 </link>
 
-<link name="ARMFINAL_1516-4008-0800_v1_1">
+<!-- <link name="ARMFINAL_1516-4008-0800_v1_1">
   <inertial>
     <origin xyz="0.040000058884185806 2.754070013265969e-05 -2.257357589474651e-05" rpy="0 0 0"/>
     <mass value="0.008578046069735728"/>
@@ -466,7 +467,7 @@
       <mesh filename="package://tetra_description/meshes/ARMFINAL_baseOuter1_v1_1.stl" scale="0.0254 0.0254 0.0254"/>
     </geometry>
   </collision>
-</link>
+</link> -->
 
 <joint name="dummy_joint" type="fixed">
   <parent link="dummy"/>
@@ -505,17 +506,17 @@
   <child link="ebox_v1_1"/>
 </joint>
 
-<joint name="Rigid 14" type="fixed">
+<!-- <joint name="Rigid 14" type="fixed">
   <origin xyz="0.239644 0.039438 -0.303299" rpy="0 0 0"/>
   <parent link="ebox_v1_1"/>
   <child link="ARMFINAL_basePlatform_v1_1"/>
-</joint>
+</joint> -->
 
-<joint name="Rigid 35" type="fixed">
+<!-- <joint name="Rigid 35" type="fixed">
   <origin xyz="0.0 -0.13467 0.050683" rpy="0 0 0"/>
   <parent link="ARMFINAL_LowerArmPlate_v1_1"/>
   <child link="ARMFINAL_1401-0043-0032_assembly_v1_1"/>
-</joint>
+</joint> -->
 
 <joint name="Revolute 37" type="continuous">
   <origin xyz="0.1651 -0.254 -0.127914" rpy="0 0 0"/>
@@ -559,7 +560,7 @@
   <axis xyz="-1.0 -0.0 -0.0"/>
 </joint>
 
-<joint name="Rigid 43" type="fixed">
+<!-- <joint name="Rigid 43" type="fixed">
   <origin xyz="-0.022544 0.151801 -0.325072" rpy="0 0 0"/>
   <parent link="ARMFINAL_LowerArmPlate_v1__1__1"/>
   <child link="ARMFINAL_1516-4008-0800_v1_1"/>
@@ -607,6 +608,6 @@
   <origin xyz="-0.290444 0.011362 0.379499" rpy="0 0 0"/>
   <parent link="ARMFINAL_basePlatform_v1_1"/>
   <child link="ARMFINAL_baseOuter1_v1_1"/>
-</joint>
+</joint> -->
 
 </robot>

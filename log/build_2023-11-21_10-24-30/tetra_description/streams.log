@@ -1,0 +1,54 @@
+[0.060s] Invoking command in '/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_description -- -j16 -l16
+[0.095s] Invoked command in '/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_description -- -j16 -l16
+[0.123s] Invoking command in '/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_description
+[0.129s] -- Install configuration: ""
+[0.130s] -- Execute custom install script
+[0.130s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/ARMFINAL_1401-0043-0032_assembly_v1_1.stl
+[0.131s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/ARMFINAL_1401-0043-0032_assembly_v1__1__1.stl
+[0.131s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/ARMFINAL_1516-4008-0800_v1_1.stl
+[0.131s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/ARMFINAL_LowerArmPlate_v1_1.stl
+[0.131s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/ARMFINAL_LowerArmPlate_v1__1__1.stl
+[0.131s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/ARMFINAL_baseAxle_v1_1.stl
+[0.131s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/ARMFINAL_baseOuter1_v1_1.stl
+[0.131s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/ARMFINAL_baseOuter_v1_1.stl
+[0.131s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/ARMFINAL_basePlatform_v1_1.stl
+[0.132s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/ARMFINAL_upperArmHinge_v1_1.stl
+[0.132s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/backFlipper_v2_1.stl
+[0.132s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/backFlipper_v2__1__1.stl
+[0.132s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/backFlipper_v2__2__1.stl
+[0.132s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/backFlipper_v2__3__1.stl
+[0.132s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/base_link.stl
+[0.132s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/drive_housing_v2_1.stl
+[0.133s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/drive_housing_v2__1__1.stl
+[0.133s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/ebox_v1_1.stl
+[0.133s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/sprocket_v1_1.stl
+[0.133s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/sprocket_v1__1__1.stl
+[0.133s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/sprocket_v1__2__1.stl
+[0.133s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/meshes/sprocket_v1__3__1.stl
+[0.133s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/urdf/lidar.xacro
+[0.133s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/urdf/materials.xacro
+[0.133s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/urdf/ros2_control.xacro
+[0.133s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/urdf/simple_dexter_driveTrain.xacro
+[0.133s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/urdf/simple_dexter_driveTrain_gazebo.xacro
+[0.134s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/urdf/simple_dexter_driveTrain_trans.xacro
+[0.134s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/launch/gazebo.launch.py
+[0.134s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/rviz/display.rviz
+[0.134s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/rviz/urdf.rviz
+[0.134s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/config/controller.yaml
+[0.134s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/config/my_controller.yaml
+[0.134s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/ament_index/resource_index/package_run_dependencies/tetra_description
+[0.134s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/ament_index/resource_index/parent_prefix_path/tetra_description
+[0.134s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/environment/ament_prefix_path.sh
+[0.135s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/environment/ament_prefix_path.dsv
+[0.135s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/environment/path.sh
+[0.135s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/environment/path.dsv
+[0.135s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/local_setup.bash
+[0.135s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/local_setup.sh
+[0.135s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/local_setup.zsh
+[0.135s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/local_setup.dsv
+[0.135s] -- Symlinking: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/package.dsv
+[0.144s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/ament_index/resource_index/packages/tetra_description
+[0.144s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/cmake/tetra_descriptionConfig.cmake
+[0.144s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/cmake/tetra_descriptionConfig-version.cmake
+[0.144s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_description/share/tetra_description/package.xml
+[0.192s] Invoked command in '/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_description

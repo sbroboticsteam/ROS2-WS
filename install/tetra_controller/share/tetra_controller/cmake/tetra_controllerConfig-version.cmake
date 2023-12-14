@@ -1,0 +1,1 @@
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller/ament_cmake_core/tetra_controllerConfig-version.cmake

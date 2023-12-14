@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "meshes" "urdf" "launch" "rviz" "DESTINATION" "share/tetra_description")
-ament_cmake_symlink_install_directory("/home/shrujan/Desktop/SBRT/urdf_ros2_ws/src/tetra_description" DIRECTORY "meshes" "urdf" "launch" "rviz" "DESTINATION" "share/tetra_description")
+# install(DIRECTORY "meshes" "urdf" "launch" "rviz" "config" "DESTINATION" "share/tetra_description")
+ament_cmake_symlink_install_directory("/home/shrujan/Desktop/SBRT/urdf_ros2_ws/src/tetra_description" DIRECTORY "meshes" "urdf" "launch" "rviz" "config" "DESTINATION" "share/tetra_description")
 
 # install(FILES "/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/tetra_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/shrujan/Desktop/SBRT/urdf_ros2_ws/src/tetra_description" FILES "/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/tetra_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

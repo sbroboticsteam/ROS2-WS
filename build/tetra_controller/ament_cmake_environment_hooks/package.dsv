@@ -1,0 +1,4 @@
+source;share/tetra_controller/local_setup.bash
+source;share/tetra_controller/local_setup.dsv
+source;share/tetra_controller/local_setup.sh
+source;share/tetra_controller/local_setup.zsh

@@ -1,0 +1,41 @@
+[0.131s] Invoking command in '/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller -- -j16 -l16
+[0.187s] Built target ament_cmake_python_symlink_tetra_controller
+[0.397s] running egg_info
+[0.397s] writing tetra_controller.egg-info/PKG-INFO
+[0.398s] writing dependency_links to tetra_controller.egg-info/dependency_links.txt
+[0.398s] writing top-level names to tetra_controller.egg-info/top_level.txt
+[0.399s] reading manifest file 'tetra_controller.egg-info/SOURCES.txt'
+[0.400s] writing manifest file 'tetra_controller.egg-info/SOURCES.txt'
+[0.422s] Built target ament_cmake_python_build_tetra_controller_egg
+[0.435s] Invoked command in '/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller -- -j16 -l16
+[0.463s] Invoking command in '/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller
+[0.470s] -- Install configuration: ""
+[0.470s] -- Execute custom install script
+[0.470s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/tetra_controller/environment/pythonpath.sh
+[0.470s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/tetra_controller/environment/pythonpath.dsv
+[0.471s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/local/lib/python3.10/dist-packages/tetra_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[0.471s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/local/lib/python3.10/dist-packages/tetra_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.471s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/local/lib/python3.10/dist-packages/tetra_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.471s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/local/lib/python3.10/dist-packages/tetra_controller-0.0.0-py3.10.egg-info/top_level.txt
+[0.471s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/local/lib/python3.10/dist-packages/tetra_controller/__init__.py
+[0.471s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/local/lib/python3.10/dist-packages/tetra_controller/simple_controller.py
+[0.472s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/tetra_controller/config/tetra_controllers.yaml
+[0.472s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/tetra_controller/launch/controller.launch.py
+[0.472s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/lib/tetra_controller/simple_controller.py
+[0.472s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/ament_index/resource_index/package_run_dependencies/tetra_controller
+[0.472s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/ament_index/resource_index/parent_prefix_path/tetra_controller
+[0.472s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/tetra_controller/environment/ament_prefix_path.sh
+[0.473s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/tetra_controller/environment/ament_prefix_path.dsv
+[0.473s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/tetra_controller/environment/path.sh
+[0.473s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/tetra_controller/environment/path.dsv
+[0.473s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/tetra_controller/local_setup.bash
+[0.473s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/tetra_controller/local_setup.sh
+[0.473s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/tetra_controller/local_setup.zsh
+[0.474s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/tetra_controller/local_setup.dsv
+[0.474s] -- Symlinking: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/tetra_controller/package.dsv
+[0.485s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/ament_index/resource_index/packages/tetra_controller
+[0.485s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/tetra_controller/cmake/tetra_controllerConfig.cmake
+[0.485s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/tetra_controller/cmake/tetra_controllerConfig-version.cmake
+[0.485s] -- Up-to-date symlink: /home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/share/tetra_controller/package.xml
+[0.508s] Listing '/home/shrujan/Desktop/SBRT/urdf_ros2_ws/install/tetra_controller/local/lib/python3.10/dist-packages/tetra_controller'...
+[0.514s] Invoked command in '/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller

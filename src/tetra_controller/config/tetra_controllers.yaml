@@ -1,0 +1,30 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 10
+    use_sime_time: true
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    simple_velocity_controller:
+      type: velocity_controllers/JointGroupVelocityController
+
+    simple_position_controller:
+      type: forward_command_controller/ForwardCommandController
+
+simple_velocity_controller:
+  ros__parameters:
+    joints:
+      - Revolute 39
+      - Revolute 40
+      - Revolute 41
+      - Revolute 42
+
+simple_position_controller:
+  ros__parameters:
+    joints:
+      - Revolute 6
+      - Revolute 7
+      - Revolute 37
+      - Revolute 38
+    interface_name: position

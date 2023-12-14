@@ -1,0 +1,11 @@
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller/CMakeFiles/uninstall.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller/CMakeFiles/tetra_controller_uninstall.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller/CMakeFiles/ament_cmake_python_symlink_tetra_controller.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller/CMakeFiles/ament_cmake_python_build_tetra_controller_egg.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller/CMakeFiles/test.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller/CMakeFiles/edit_cache.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller/CMakeFiles/rebuild_cache.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller/CMakeFiles/list_install_components.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller/CMakeFiles/install.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller/CMakeFiles/install/local.dir
+/home/shrujan/Desktop/SBRT/urdf_ros2_ws/build/tetra_controller/CMakeFiles/install/strip.dir
